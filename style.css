@@ -1,0 +1,19 @@
+header {
+    background-color: lightgoldenrodyellow;
+    color: dodgerblue;
+    font-size: xx-large;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom:%15;
+    padding-top:5%;
+
+}
+
+img {
+    border-radius: 25%;
+    float:right;
+    float:top;
+    margin:5px,5px,30px,20px
+
+}
