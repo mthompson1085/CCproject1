@@ -1,4 +1,4 @@
-header {
+.headerall {
     background-color: lightgoldenrodyellow;
     color: dodgerblue;
     font-size: xx-large;
@@ -10,10 +10,41 @@ header {
 
 }
 
-img {
+.container {
+    width: 90%;
+    height: 750px;
+    justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img {
+    width: 100%;
+    height: 750px;
+}
+.logo {
     border-radius: 25%;
     float:right;
     float:top;
     margin:5px,5px,30px,20px
 
+}
+.navbar {
+    overflow: hidden;
+    background-color: green;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: orange;
+    color:white
+}
+
+.body{
+    background-color: lightgoldenrodyellow;
 }
