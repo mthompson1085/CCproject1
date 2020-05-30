@@ -16,6 +16,7 @@
     justify;
     margin-left: auto;
     margin-right: auto;
+    background-color: lightgoldenrodyellow;
 }
 
 .container img {
@@ -45,6 +46,10 @@
     color:white
 }
 
-.body{
+body{
+    background-color: lightgoldenrodyellow;
+}
+h1 {
+    color:dodgerblue;
     background-color: lightgoldenrodyellow;
 }
