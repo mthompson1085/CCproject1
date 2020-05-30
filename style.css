@@ -5,6 +5,7 @@
     font-weight: bold;
     box-sizing: border-box;
     text-align: center;
+    padding-right: 150px;
    
 }
 
@@ -28,21 +29,30 @@
 
 }
 .navbar {
-    overflow: hidden;
-    background-color: green;
+    background-color: lightgoldenrodyellow;
+    overflow:hidden;
+    color:dodgerblue;
+    margin: auto;
+    width:30%;
+   
 }
 .navbar a {
-    float: left;
+    color: dodgerblue;
     text-align: center;
     padding: 14px 16px;
-    font-size: 14px;
+    text-decoration: none;
+    font-size: 40px
 }
 
 .navbar a:hover {
-    background-color: orange;
-    color:white
+    background-color: lightgrey;
+    color:orange
 }
 
+.navbar.a.active{
+    background-color: dodgerblue
+    color: white;
+}
 body{
     background-color: lightgoldenrodyellow;
 }
