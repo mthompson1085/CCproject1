@@ -80,3 +80,12 @@ p {
     text-align: center;
     color: black;
 }
+footer {
+    background-color: dodgerblue;
+    color: white;
+    height: 150px;
+    width: 100%;
+    font-size: 2em;
+    text-align: right;
+    margin-right: 20px;
+}
