@@ -52,4 +52,22 @@ body{
 h1 {
     color:dodgerblue;
     background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+*{box-sizing: border-box;}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    height: 300px;
+
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.column.h2 {
+    text-align: center;
 }
