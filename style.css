@@ -59,15 +59,24 @@ h1 {
 .column {
     float: left;
     width: 33.33%;
-    padding: 50px;
+    padding: 150px;
     height: 300px;
 
 }
-.row::after {
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
-div.column.h2 {
+h2 {
     text-align: center;
+    color: dodgerblue;
+}
+h3 {
+    text-align: center;
+    color: orange
+}
+p {
+    text-align: center;
+    color: black;
 }
