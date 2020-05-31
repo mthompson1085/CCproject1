@@ -98,9 +98,11 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: fit-content;
     background-color:dodgerblue;
     color: white;
     text-align: center;
+    font-size: xx-large;
 }
 .service{
     color:dodgerblue;
