@@ -5,10 +5,8 @@
     font-weight: bold;
     box-sizing: border-box;
     text-align: center;
-    padding-right: 150px;
-   
+    padding-right: 150px;  
 }
-
 .container {
     width: 90%;
     height: 750px;
@@ -16,7 +14,6 @@
     margin-right: auto;
     background-color: lightgoldenrodyellow;
 }
-
 .container img {
     width: 100%;
     height: 750px;
@@ -51,18 +48,20 @@ li {
     text-decoration: none;
     font-size: 40px
 }
-
 .navbar a:hover {
     background-color: lightgrey;
     color:orange
 }
-
 .navbar a.active{
     background-color: dodgerblue;
     color: white;
 }
 body{
     background-color: lightgoldenrodyellow;
+    min-height: fit-content;
+    clear: both;
+    padding-bottom: 250px;
+
 }
 h1 {
     color:dodgerblue;
@@ -70,13 +69,12 @@ h1 {
     text-align: center;
 }
 *{box-sizing: border-box;}
-
 .column {
     float: left;
     width: 33.33%;
     padding: 150px;
     height: 300px;
-
+    clear: bottom;
 }
 .row:after {
     content: "";
@@ -91,21 +89,19 @@ h3 {
     text-align: center;
     color: orange
 }
-p {
+.column p {
     text-align: center;
     color: black;
 }
-footer {
-    background-color: dodgerblue;
-    color: white;
-    height: 150px;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    font-size: 2em;
-    text-align: right;
-    margin-right: 20px;
-    margin-top: auto;
+    background-color:dodgerblue;
+    color: white;
+    text-align: center;
 }
-
 .service{
     color:dodgerblue;
     font-size: 3em;
