@@ -39,7 +39,7 @@ ul {
     margin: 0;
     padding:0;
 }
-li {
+.navbar li {
     display: inline;
 }
 .navbar {
@@ -125,4 +125,7 @@ p {
 .budget {
     width:600px;
     height:400px;
+}
+.bullets li {
+    list-style-type:disc;
 }
