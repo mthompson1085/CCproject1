@@ -121,8 +121,10 @@ h3 {
 }
 p {
     color: orange;
-    font-size: 2em;
+    font-size: 1em;
     text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .budget {
     width:25vw;
