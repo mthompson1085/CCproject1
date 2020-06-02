@@ -16,7 +16,7 @@ header {
     font-size:4em
 }
 .container {
-    width: 90%;
+    width: 90vw;
     height: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +25,9 @@ header {
 .container img {
     width: 100%;
     height: 750px;
-    padding: 50px
+    padding: 50px;
+    border-color: ghostwhite;
+    
 }
 .logo {
     border-radius: 25%;
@@ -80,9 +82,9 @@ h1 {
 *{box-sizing: border-box;}
 .column {
     float: left;
-    width: 33.33%;
+    width: 33.3%;
     padding: 150px;
-    height: 300px;
+    height: 700px;
     clear: bottom;
 }
 .row:after {
@@ -123,9 +125,12 @@ p {
     text-align: left;
 }
 .budget {
-    width:600px;
-    height:400px;
+    width:25vw;
+    height:25vl;
+    padding: 10px;
+    margin-right: 5%;
 }
 .bullets li {
     list-style-type:disc;
+    font-size: 24px;
 }
