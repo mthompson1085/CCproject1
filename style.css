@@ -136,3 +136,35 @@ p {
     list-style-type:disc;
     font-size: 24px;
 }
+.paublo img {
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    
+}
+.paublo {
+    padding-bottom: 5px;
+    clear: both;
+   
+}
+
+.mb img{
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+
+}
+.mb {
+    padding:5px;
+    clear: both;
+
+}
+.mike img {
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.mike  {
+    padding:5px;
+    clear: both;
+}
