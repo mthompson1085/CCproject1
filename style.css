@@ -16,11 +16,12 @@ header {
     font-size:4em
 }
 .container {
-    width: 90vw;
-    height: 750px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    height: 40vw;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: lightgoldenrodyellow;
+    align-content: center;
 }
 .container img {
     width: 100%;
