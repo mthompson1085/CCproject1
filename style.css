@@ -79,6 +79,20 @@ h1 {
     background-color: lightgoldenrodyellow;
     text-align: center;
 }
+.flex-container{
+    display:flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    
+}
+.flex-container > div {
+    background-color:dodgerblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
 *{box-sizing: border-box;}
 .column {
     float: left;
@@ -117,7 +131,15 @@ h3 {
 }
 .service{
     color:dodgerblue;
-    font-size: 3em;
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 10px;
+}
+.pageh1{
+    text-align: center;
+    font-size: 4em;
+    color: orange;
 }
 p {
     color: orange;
@@ -206,7 +228,7 @@ input[type=number] {
     padding:10px
 
 }
-option[type=value] {
+select {
     width: 25%;
     padding: 12px;
     border: 3px solid black;
@@ -215,4 +237,8 @@ option[type=value] {
     margin-top: 6px;
     margin-bottom: 16px;
     resize:vertical;
+}
+.intro {
+    text-align: left;
+    font-size: 20px;
 }
