@@ -161,11 +161,11 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: fit-content;
+    height: 7vw;
     background-color:dodgerblue;
     color: white;
     text-align: center;
-    font-size: xx-large;
+    font-size: small;
 }
 .service{
     color:dodgerblue;
@@ -283,4 +283,9 @@ select {
 .intro {
     text-align: left;
     font-size: 20px;
+}
+.carousel-inner .item img {
+    width: 20vw;
+    height: 20vw;
+    margin: 10% 10% 10% 10%;
 }
