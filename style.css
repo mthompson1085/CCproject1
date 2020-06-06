@@ -7,8 +7,9 @@
     text-align: center;
     padding-right: 200px;  
 }
+
 header {
-    font-size: 8em;
+    font-size: 10em;
     font-weight: bolder;
 }
 .underimg {
@@ -31,10 +32,12 @@ header {
     
 }
 .logo {
-    border-radius: 25%;
+    border-radius: 15%;
     float:right;
     float:top;
-    margin:5px,5px,30px,20px
+    margin:1vw,2vw,1vw,2vw;
+    width: 15%;
+    height:15%;
 
 }
 ul {
@@ -58,7 +61,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1em;
 }
 .navbar a:hover {
     background-color: lightgrey;
