@@ -113,8 +113,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     background-color: dodgerblue;
-    height:700px; 
+    height:85vw; 
     
+}
+.flex-containerserv h3 {
+    text-overflow: wrap;
+    margin: 1vw 2vw 1vw 2vw
 }
 .flex-containerserv p {
     font-weight: bold;
@@ -122,16 +126,18 @@ h1 {
     width: 20vw;
     text-align: center;
     color:white;
-    margin: auto;
-    height: 3vw;
-    float: bottom;
+    height: 6vw;
+    text-justify: center;
+    float:bottom;
+    margin:auto
 }
 .flex-containerserv > div {
     background-color:whitesmoke;
     width: 27%;
-    height: 650px;
+    height: 80vw;
     margin: 1vw;
     text-align: center;
+    text-overflow: wrap;
     line-height: 4vw;
     font-size: 1em;
 }
@@ -140,7 +146,7 @@ h1 {
     float: left;
     width: 33.3%;
     padding: 150px;
-    height: 700px;
+    height: 850px;
     clear: bottom;
 }
 .row:after {
