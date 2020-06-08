@@ -312,6 +312,9 @@ select {
     height: 20vw;
     margin: 10% 10% 10% 10%;
 }
+.carousel-inner p {
+    text-align: center;
+}
 .team {
     justify-content: left;
 
